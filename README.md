@@ -24,3 +24,8 @@ Get the URLs for the stakeholder organisations and committee members from an exc
 Scrape the webpages and store the scrapped data in the form of a string to be tokenized.
 Extract the entities and relations from the graph using rebel-large model.
 Export the extracted relations to an excel.
+
+# Extracted Excel Files: stakeholders and triples_data
+
+Extracted excel file from ExtractStakeholder.ipynb containing data for stakeholders (Names and web page links).
+Extracted excel file from TripleExtraction.ipynb containing data for extracted relations (triples - head, type and tail).
