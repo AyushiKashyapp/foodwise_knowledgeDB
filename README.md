@@ -29,3 +29,8 @@ Export the extracted relations to an excel.
 
 Extracted excel file from ExtractStakeholder.ipynb containing data for stakeholders (Names and web page links).
 Extracted excel file from TripleExtraction.ipynb containing data for extracted relations (triples - head, type and tail).
+
+# File Neo4jGraphCreation.ipynb: Generating a knowledge graph in Neo4j.
+
+Generating a Neo4j Knowledge Graph using the extracted triples.
+A knowledge graph created using the triples extracted in the previous parts of the project, sources from the wikipedia pages and web pages of the major stakeholders and committess members of the Food Wise and Food Vision projects.
