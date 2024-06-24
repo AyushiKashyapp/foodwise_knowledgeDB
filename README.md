@@ -35,6 +35,12 @@ Extracted excel file from TripleExtraction.ipynb containing data for extracted r
 Generating a Neo4j Knowledge Graph using the extracted triples.
 A knowledge graph created using the triples extracted in the previous parts of the project, sources from the wikipedia pages and web pages of the major stakeholders and committess members of the Food Wise and Food Vision projects.
 
+# File VisualiseKG.ipynb: Visualising the generated knowledge graph.
+
+Visualising Knowledge Graph using pyvis.network by reading the triples extracted in previous steps of the project.
+
+The graph is later exported as an HTML file named: "foodwise_and_foodvision.html"
+
 # Graph Snippet
 
 ![image](https://github.com/AyushiKashyapp/foodwise_knowledgeDB/assets/147310638/df5a4802-5f74-47d5-866f-b8bcaf232fb1)
