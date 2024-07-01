@@ -1,7 +1,7 @@
 # Food Wise and Food Vision Knowledge DB
 A knowledge database created on neo4j using triples extracted by roberta llm and named entity recognition. 
 
-Find the project question bank here [QuestionBank](https://github.com/AyushiKashyapp/foodwise_knowledgeDB/blob/main/CheatSheet.md)
+Find the project question bank here [QuestionBank](https://github.com/AyushiKashyapp/foodwise_knowledgeDB/blob/main/QuestionBank.md)
 
 # Project Motivation
 Adding the Food Wise 2025 and Food Vision 2030, two strategies by Ireland's Department of Agriculture, Food and Marine, to implement sustainable food systems (SFS) on the global stage. I aim to extract the major stakeholders from official project plan documents and manually find the important people at authority and committee members, and create a knowledge database with their wikipedia pages or any online information pages in neo4j.
