@@ -32,7 +32,7 @@ The wikipedia library is used to access and parse data from Wikipedia pages abou
 7. **How are the URLs for the stakeholder organizations and committee members read into the code?**
 The URLs are read from an Excel file named stakeholders.xlsx using the pandas library and stored in a list called urls.
 
-8: **What is the purpose of the extract_relations_from_model_output function?**
+8. **What is the purpose of the extract_relations_from_model_output function?**
 The purpose of the extract_relations_from_model_output function is to process the text output from the model and extract relationships (triples) by identifying the subject, relation, and object from the text.
 
 9. **What does the KB class do in the code?**
@@ -61,3 +61,30 @@ The rebel-large model is loaded using the AutoModelForSeq2SeqLM and AutoTokenize
 
 17. **Give overview of RoBERTa.**
 RoBERTa (short for “Robustly Optimized BERT Approach”) is a variant of the BERT (Bidirectional Encoder Representations from Transformers) model. Like BERT, RoBERTa is a transformer-based language model that uses self-attention to process input sequences and generate contextualized representations of words in a sentence.
+
+18. **What is Neo4j?**
+Neo4j is a graph database management system developed by Neo4j Inc. The data elements Neo4j stores are nodes, edges connecting them, and attributes of nodes and edges. It is a highly scalable graph database management system, purpose-built for storing and traversing relationships in computing.
+
+19. **What are the libraries required to establish connection with Neo4j?**
+The Neo4j Python driver 'neo4j-driver' is the official library to interact with a Neo4j instance through a Python application. The connection to the Neo4j database is established using the 'GraphDatabase.driver' function from the neo4j library, providing the database URL and authentication credentials.
+
+20. **What is Cypher Query Language?**
+Cypher is a declarative graph query language that allows for expressive and efficient data querying in a property graph. It is Neo4j's graph query language that lets you retrieve data from the graph. It is like SQL for graphs, and was inspired by SQL.
+
+21. **What are the libraries required to visualise and store a knowledge graph?**
+The required libraries are:
+
+- pyvis for creating the network visualization.
+- pandas for reading the Excel file and handling data.
+- IPython to show HTML in the notebook (if working in a notebook environment).
+
+22. **What is 'pyvis' library used for?**
+pyvis is a Python library used for creating interactive network visualizations. It is built on top of the popular JavaScript library vis.js, which provides a wide range of functionalities for visualizing networks in a dynamic and interactive way. pyvis allows users to create, customize, and export network visualizations directly from Python, making it a powerful tool for data scientists, researchers, and developers working with graph data.
+
+23. **What customization options are used for the network visualization?**
+The network visualization includes the following customization options:
+
+- Directed network (directed=True).
+- Custom width and height (width="auto", height="700px").
+- Background color (bgcolor="#333333").
+- Node shape as circles with a specific color (color_entity = "#40E0D0").
